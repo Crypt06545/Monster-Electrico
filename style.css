@@ -1,0 +1,32 @@
+body,
+html {
+  margin: 0px;
+  padding: 0px;
+  position: fixed;
+  background: black;
+}
+
+.youtube {
+  text-decoration: none;
+  position: fixed;
+  right: 2rem;
+  bottom: 2rem;
+  font-size: 2rem;
+  background: rgba(255, 255, 255, 0.7);
+  color: #ff0000;
+  width: 3.5rem;
+  height: 3.5rem;
+  border-radius: 50%;
+  transition: all 0.1s linear;
+  box-shadow: 0.2rem 0.2rem 0.5rem rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.youtube:hover {
+  width: 4rem;
+  height: 4rem;
+  line-height: 4rem;
+  background: rgba(255, 255, 255, 0.9);
+}
